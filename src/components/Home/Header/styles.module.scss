@@ -1,0 +1,99 @@
+.Header {
+    width: 100%;
+    display: flex;
+    margin-top: -270px;
+    @media (max-width: 768px) {
+        margin-top: 0;
+    }
+    .Banner {
+        width: 100%;
+        background: url("https://cdn.moonkode.com/images/projects/LegacyWars/Header/banner.jpg")
+            no-repeat;
+        background-size: cover;
+        border-radius: 12px;
+        padding: 48px;
+        h1 {
+            font-weight: 800;
+            font-size: 48px;
+            color: rgb(255, 100, 100);
+            margin: 0 auto;
+        }
+        p {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 27px;
+            color: rgb(255, 97, 97);
+            margin: 0 auto;
+            margin-top: -10px;
+        }
+        button {
+            margin-top: 6px;
+            background: #ff7b7b;
+            color: rgba(255, 255, 255);
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 27px;
+            border: none;
+            border-radius: 12px;
+            padding: 5px 10px;
+        }
+    }
+    .Character {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: -180px;
+        img {
+            width: 380px;
+        }
+        @media (max-width: 768px) {
+            display: none;
+        }
+    }
+    .IP {
+        margin-top: 30px;
+        .Title {
+            background: rgba(255, 123, 123);
+            color: rgba(255, 255, 255);
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 30px;
+            text-align: center;
+            border-top-left-radius: 24px;
+            border-top-right-radius: 24px;
+            width: fit-content;
+            margin: 0 auto;
+            padding: 0px 37px 0px 37px;
+        }
+        .Body {
+            background: rgba(244, 244, 244);
+            text-align: center;
+            border-radius: 24px;
+            padding: 16px 22px;
+            p {
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 24px;
+                color: rgba(255, 100, 100);
+            }
+            .Copy {
+                display: flex;
+                justify-content: center;
+                button {
+                    display: flex;
+                    background: rgba(255, 123, 123);
+                    color: rgba(255, 255, 255);
+                    border: none;
+                    border-radius: 12px;
+                    padding: 6px 9px;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 24px;
+                    i {
+                        font-size: 24px;
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+    }
+}

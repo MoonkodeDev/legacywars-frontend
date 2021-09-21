@@ -1,0 +1,150 @@
+.Posts {
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    @media (max-width: 768px) {
+        margin-top: 20px;
+    }
+    .Post {
+        position: relative;
+        .Header {
+            position: relative;
+            background: url("https://cdn.moonkode.com/images/projects/LegacyWars/Posts/Default.jpg")
+                no-repeat;
+            background-size: cover;
+            padding: 34px 31px;
+            border-radius: 24px 24px 0px 0px;
+            h2 {
+                color: rgba(255, 123, 123);
+                font-weight: 900;
+                font-size: 36px;
+                line-height: 54px;
+                margin: 0 auto;
+            }
+            > p {
+                color: rgba(21, 19, 19);
+                font-weight: 300;
+                font-size: 20px;
+                line-height: 30px;
+                margin: 0 auto;
+                margin-top: -15px;
+            }
+            .Author {
+                display: flex;
+                justify-content: flex-end;
+                text-align: center;
+                padding: 0 50px;
+                @media (max-width: 768px) {
+                    display: none;
+                }
+                .Content {
+                    position: absolute;
+                    background: rgba(244, 244, 244);
+                    padding: 12px 42px;
+                    padding-bottom: 0;
+                    border-radius: 24px 24px 0px 0px;
+                    top: 40%;
+                    img {
+                        border-radius: 12px;
+                    }
+                    p {
+                        color: rgba(255, 123, 123);
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 30px;
+                    }
+                }
+            }
+        }
+
+        hr {
+            margin-top: 0 !important;
+            margin-bottom: 0 !important;
+            border: 0;
+            border-top: 6px solid rgba(255, 123, 123);
+        }
+        .Body {
+            background: rgba(244, 244, 244);
+            color: rgba(0, 0, 0);
+            padding: 52px;
+            border-bottom-left-radius: 12px;
+            border-bottom-right-radius: 12px;
+        }
+        .Button {
+            position: absolute;
+            bottom: -20px;
+            right: 80px;
+            button {
+                background: rgba(255, 123, 123, 1);
+                color: rgba(255, 255, 255);
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 30px;
+                border: none;
+                border-radius: 12px;
+                padding: 4px 18px;
+            }
+        }
+    }
+    .Last {
+        @media (max-width: 768px) {
+            margin-top: 40px;
+        }
+        > .Title {
+            background: rgba(255, 123, 123);
+            color: rgba(255, 255, 255);
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 30px;
+            text-align: center;
+            border-top-left-radius: 24px;
+            border-top-right-radius: 24px;
+            width: fit-content;
+            margin: 0 auto;
+            padding: 0px 10px 0px 10px;
+        }
+        .Body {
+            background: rgba(244, 244, 244);
+            text-align: center;
+            border-radius: 24px;
+            padding: 16px 22px;
+            ul {
+                list-style: none;
+                padding: 0;
+                li {
+                    cursor: pointer;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 20px;
+                    .Author {
+                        img {
+                            border-radius: 12px;
+                        }
+                    }
+                    .Title {
+                        h6 {
+                            color: rgba(0, 0, 0);
+                            font-weight: 700;
+                            font-size: 16px;
+                            line-height: 18px;
+                            margin: 0 auto;
+                            margin-left: 5px;
+                        }
+                        p {
+                            color: rgba(21, 19, 19, 1);
+                            font-weight: 300;
+                            font-size: 14px;
+                            line-height: 10px;
+                            margin: 0 auto;
+                            .Name {
+                                font-weight: 600;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

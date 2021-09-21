@@ -1,0 +1,14 @@
+{
+    "singleQuote": true,
+    "tabWidth": 2,
+    "useTabs": false,
+    "bracketSpacing": true,
+    "printWidth": 100,
+    "es5": true,
+    "[javascript]": {
+        "editor.formatOnSave": true
+    },
+    "[typescript]": {
+        "editor.formatOnSave": true
+    }
+}

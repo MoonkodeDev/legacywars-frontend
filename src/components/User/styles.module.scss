@@ -1,0 +1,47 @@
+.User {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    float: right;
+    padding: 11px 0;
+    .Avatar {
+        img {
+            border-radius: 24px;
+            margin-right: 13px;
+        }
+    }
+    .Name {
+        button {
+            margin-right: 13px;
+            cursor: pointer;
+            background: rgb(255, 129, 129);
+            color: rgb(255, 255, 255);
+            border: none;
+            border-radius: 12px;
+            padding: 5px 30px;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 27px;
+            text-transform: uppercase;
+        }
+    }
+    .Cart {
+        cursor: pointer;
+        i {
+            color: rgb(0, 0, 0);
+            font-size: 28px;
+            margin-right: 3px;
+        }
+    }
+    .Count {
+        background: rgb(31, 34, 30);
+        color: rgb(255, 255, 255);
+        font-weight: 800;
+        font-size: 10px;
+        line-height: 15px;
+        border-radius: 12px;
+        margin-top: -20px;
+        padding: 2px 6px;
+    }
+}
